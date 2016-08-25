@@ -4,7 +4,10 @@ data:extend({
     name = "car",
     icon = "__base__/graphics/icons/car.png",
     flags = {"pushable", "placeable-neutral", "player-creation", "placeable-off-grid"},
-    minable = {mining_time = 1, result = "car"},
+    minable = {
+      mining_time = 1,
+      result = "car"
+    },
     max_health = 200,
     corpse = "medium-remnants",
     dying_explosion = "medium-explosion",
