@@ -1,0 +1,11 @@
+{
+  "name": "AirForce",
+  "version": "0.0.1",
+  "title": "AirForce",
+  "author": "kiba",
+  "contact": "hackerkiba@gmail.com",
+  "homepage": "https://github.com/kiba/Factorio-AirForce",
+  "description": "Manage an airforce and its associated facilities.",
+  "dependencies": ["base >= 0.13.0"],
+  "factorio_version": "0.13.0"
+}
