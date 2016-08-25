@@ -1,7 +1,7 @@
 data:extend({
   {
     type = "car",
-    name = "car",
+    name = "recon_aircraft",
     icon = "__base__/graphics/icons/car.png",
     flags = {"pushable", "placeable-neutral", "player-creation", "placeable-off-grid"},
     minable = {
