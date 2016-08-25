@@ -35,6 +35,6 @@ task :symlink do |t|
   sh "rm -r " + DEV_DIR
   sh "mkdir " + DEV_DIR
   destination = DEV_DIR + PROJECT
-  source = "~/projects/MagneticFloor"
+  source = "~/projects/" + info["name"]
   sh ["ln -s",source, destination].join(" ")
 end
